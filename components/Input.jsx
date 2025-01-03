@@ -58,7 +58,7 @@ function Input() {
     formData.append("file", selectedImage);
 
     try {
-      const response = await fetch("http://52.66.234.93:8000/predict", {
+      const response = await fetch("https://4dxs2cfwxr.ap-south-1.awsapprunner.com/predict", {
         method: "POST",
         body: formData,
       });
