@@ -163,6 +163,7 @@ function Input() {
                 height={500}
                 width={500}
                 alt="Dummy Image"
+                priority={true}
                 className="sm:h-[350px] sm:w-[500px] h-[40vh] w-[80vw]"
               />
             </div>
